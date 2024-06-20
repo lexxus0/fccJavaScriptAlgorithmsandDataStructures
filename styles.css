@@ -1,0 +1,24 @@
+@import url(./palindrome/styles.css);
+@import url(./phone-validation/styles.css);
+@import url(./converter/styles.css);
+@import url(./pokemon-app/styles.css);
+@import url(./cash-register/styles.css);
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 0;
+}
+
+li {
+  float: left;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}

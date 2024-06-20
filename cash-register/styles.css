@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 500px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.input-div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.input-div label {
+  margin-right: 10px;
+  font-size: 16px;
+  color: #000000;
+  max-width: 120px;
+  line-height: 18px; /* Вирівнювання по вертикалі для відповідності висоти кнопки та інпута */
+}
+
+.user-input {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+  margin-right: 10px;
+  max-width: 120px;
+}
+
+.check-btn-styles {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.check-btn-styles:hover {
+  background-color: #0056b3;
+}
+
+.display-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.change-due {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.cash-drawer-display {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.cash-drawer-display p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.cash-drawer-display p:first-child {
+  margin-top: 0;
+}
+
+.result-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
